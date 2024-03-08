@@ -1,27 +1,80 @@
 /* ------- CSS for Navigation Buttons ------- */
 
+#main_header {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#6d0019+18,8f0222+39,e2e2e2+84 */
+  background: linear-gradient(to bottom,  #6d0019 18%,#8f0222 39%,#e2e2e2 84%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  height: 65px;
+}
+
+#nav_buttons {
+  background-color: gray;
+}
+
+#nav_buttons {
+  top: 65px;
+  margin-bottom: auto;
+}
+
 #nav_ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
   overflow: hidden;
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+}
+
+.container {
+  margin: auto;
+  padding-top: 0;
+  overflow: hidden;
+  width: 75%;
+  position: relative;
+  text-align: center;
+}
+  
+#nav_ul li {
+  float: left;
+  margin: 1px 25px;
+  position: relative;
+  display: block;
+  text-align: center;
 }
 
 #nav_ul li a {
   display: block;
   background-color: red;
+  color: black;
   font-weight: bold;
   text-align: center;
+  text-decoration: none;
   width: 100px;
-  padding: 10px 0px 8px 0px;
-  border-radius: 4px
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+  clear: left;
+}
+
+#nav_ul li a:hover {
+  background-color: #300;
+  color: yellow;
+  border-radius: 20px;
 }
 
 /* ------- CSS for Resume Page ------- */
 
 #index_body {
-color: red;
+  position: relative;
+  background-color: gray;
+  left: 60px;
 }
+
+/*
+#title {
+  position: relative;
+  top: 60px;
+}
+*/
 
 #contact_info {
 
