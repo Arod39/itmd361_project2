@@ -10,11 +10,6 @@
   z-index: 99999;
 }
 
-#index_body {
-  padding-top: 45px;
-  position: relative;
-}
-
 #nav_buttons ul {
   list-style-type: none;
   margin: 0;
@@ -40,11 +35,15 @@
 }
 
 #page_wrapper {
+  background-color: rgb(211, 212, 232);
   max-width: 90%;
   margin: 20px auto;
   overflow: hidden;
 }
 
+#content_wrapper{
+ 
+}
 
 /* 
 #nav_buttons {
@@ -109,6 +108,12 @@
  
 
 /* ------- CSS for Resume Page ------- */
+
+#index_body {
+  position: relative;
+  background-image: url("../images/chainsawman_rzf.jpg");
+}
+
 
 /*
 #title {
