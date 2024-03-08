@@ -41,7 +41,7 @@
 }
 
 #content_wrapper{
- 
+ border: 3px solid;
 }
 
 /* 
@@ -174,20 +174,79 @@
     "SHLN" 35;
 }
 
-#mybuild {
-
+h2 {
+  text-align: center;
 }
 
-#secondpc_build {
-
+#first_build {
+  width: 100%;
+  background-color: red;
+  display: inline-block;
 }
+
+#mypc_img {
+  height: 400px;
+  margin-left: 25px;
+  float: left;
+}
+
+#firstbuild_specs ul {
+  list-style-type: none;
+  position: relative;
+}
+
+
+#second_build {
+  width: 100%;
+  background-color: blue;
+  display: inline-block;
+}
+
+#secondpc_img {
+  height: 400px;
+  margin-left: 25px;
+  float: left;
+}
+
+#secondbuild_specs ul {
+  list-style-type: none;
+  position: relative;
+}
+
 
 #dark_knight {
-
+  width: 100%;
+  background-color: green;
+  display: inline-block;
 }
 
-#cherry_pc {
+#thirdpc_img {
+  height: 400px;
+  float: left;
+  margin-left: 25px;
+}
 
+#thirdbuild_specs ul {
+  list-style-type: none;
+  position: relative;
+}
+  
+
+#cherry_pc {
+  width: 100%;
+  background-color: orange;
+  display: inline-block;
+}
+
+#fourthpc_img {
+  height: 400px;
+  float: left;
+  margin-left: 55px;
+}
+
+#fourthbuild_specs ul {
+  list-style-type: none;
+  position: relative;
 }
 
 #footer {
