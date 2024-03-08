@@ -3,11 +3,10 @@
 #main_header {
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#6d0019+18,8f0222+39,e2e2e2+84 */
   background: linear-gradient(to bottom,  #6d0019 18%,#8f0222 39%,#e2e2e2 84%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  height: 45px;
+  height: 40px;
   width: 100%;
   top: 0;
   position: fixed;
-  z-index: 99999;
 }
 
 #nav_buttons ul {
@@ -114,6 +113,19 @@
   background-image: url("../images/resume_bg.jpg");
 }
 
+#title {
+  text-align: center;
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+}
+
+#resume_category {
+  font-style: italic;
+}
+
+
 
 
 
@@ -147,7 +159,19 @@
 /* ------- CSS for PC Page -------- */
 
 #pcbuilds_body {
+ position: relative;
+ background-image: url("../images/red_black_bg.jpg");
+}
 
+#pc_title {
+  text-align: center;
+  font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 0,
+    "SHLN" 35;
 }
 
 #mybuild {
