@@ -1,13 +1,26 @@
 /* ------- CSS for Navigation Buttons ------- */
 
-#nav_buttons {
+#nav_ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
 
+#nav_ul li a {
+  display: block;
+  background-color: red;
+  font-weight: bold;
+  text-align: center;
+  width: 100px;
+  padding: 10px 0px 8px 0px;
+  border-radius: 4px
 }
 
 /* ------- CSS for Resume Page ------- */
 
 #index_body {
-
+color: red;
 }
 
 #contact_info {
