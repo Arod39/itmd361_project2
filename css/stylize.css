@@ -6,7 +6,7 @@
   height: 40px;
   width: 100%;
   top: 0;
-  position: fixed;
+  position: relative;
 }
 
 #nav_buttons ul {
@@ -23,7 +23,8 @@
     text-decoration: none;
     padding: 10px 20px;
     display: block;
-    background-color: red;
+    border-radius: 10px;
+    background-color: gray;
     color: black;
 }
 
@@ -54,8 +55,6 @@
   padding: 10px 0;
 }
 
-
-
 #nav_buttons ul {
   list-style-type: none;
   padding: 0;
@@ -65,8 +64,6 @@
   text-align: center;
   vertical-align: top;
 }
-
-
 
 .container {
   margin: auto;
@@ -125,35 +122,42 @@
   font-style: italic;
 }
 
-
-
-
-
-/*
-#title {
-  position: relative;
-  top: 60px;
+#contact_info { 
+  border-style: solid;
+  text-align: center;
 }
 
-#contact_info {
-  background-color: gray;
-  margin-top: 50px;
-}
 
 #education_info {
-
+  border-style: solid;
+  text-align: center;
 }
 
 #skills_info {
-
+  border-style: solid;
+  float: left;
 }
 
 #projects_info {
-
+  float: left;
 }
 
 #work_info {
+  float: left;
+}
 
+/*
+#projects_info {
+  position: relative;
+  margin-left: 25px;
+  padding-bottom: auto;
+  position: relative;
+  left: 5px;
+  bottom: 5px;
+}
+
+#work_info {
+    border-style: solid;
 }
 
 /* ------- CSS for PC Page -------- */
@@ -188,6 +192,8 @@ h2 {
   height: 400px;
   margin-left: 25px;
   float: left;
+  margin-right: 25px;
+  margin-bottom: 15px;
 }
 
 #firstbuild_specs ul {
@@ -204,8 +210,10 @@ h2 {
 
 #secondpc_img {
   height: 400px;
-  margin-left: 25px;
+  margin-left: 20px;
   float: left;
+  margin-right: 30px;
+  margin-bottom: 15px;
 }
 
 #secondbuild_specs ul {
@@ -222,8 +230,11 @@ h2 {
 
 #thirdpc_img {
   height: 400px;
+  width: 275px;
   float: left;
   margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 15px;
 }
 
 #thirdbuild_specs ul {
@@ -241,12 +252,13 @@ h2 {
 #fourthpc_img {
   height: 400px;
   float: left;
-  margin-left: 55px;
+  margin-right: 25px;
+  margin-bottom: 15px;
 }
 
 #fourthbuild_specs ul {
   list-style-type: none;
-  position: relative;
+  float: left;
 }
 
 #footer {
@@ -255,6 +267,21 @@ h2 {
 
 /* ------- CSS for Anime Page ------ */
 
+#anime_title {
+  text-align: center;
+  font-family: "Bungee Spice", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 #anime_body {
 
+}
+
+#anime_intro {
+  color: gray;
+  border-style: solid white;
+}
+
+#library {
 }
