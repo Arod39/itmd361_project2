@@ -180,7 +180,8 @@ h2 {
 
 #first_build {
   width: 100%;
-  background-color: red;
+  background-image: url("../images/rb_bg.jpg");
+  background-size: cover;
   display: inline-block;
 }
 
