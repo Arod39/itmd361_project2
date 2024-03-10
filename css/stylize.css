@@ -120,7 +120,7 @@ h2 {
     "SHLN" 35;
 }
 
-#specs_header {
+.specs_header {
   text-align: center;
   font-family: "Honk", system-ui;
   font-optical-sizing: auto;
